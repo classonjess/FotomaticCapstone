@@ -1,10 +1,8 @@
 /* Universal Styles */
-
 html {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
-
 
 a.desktop.logo{
   color: #4a4a4a;
@@ -60,7 +58,6 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
-  height: 85px;
 }
 
 header .content {
@@ -131,12 +128,15 @@ header .mobile {
 }
 
 /* Sign Up Section */
+#land{
 
+}
 #sign-up-section {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
+
 }
 
 #sign-up-cta {
@@ -144,6 +144,7 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
+  
 }
 
 #sign-up-cta .content {
