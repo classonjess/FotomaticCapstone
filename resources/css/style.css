@@ -39,10 +39,15 @@ a.desktop.logo{
 
 .image-container {
   overflow: hidden;
+  
 }
 
 .image-container img {
   display: block;
+  width: 90%;
+  height: 65%;
+  padding: 32px 32px 40px 32px;
+  
 }
 
 @media only screen and (max-width: 760px) {
@@ -128,15 +133,15 @@ header .mobile {
 }
 
 /* Sign Up Section */
-#land{
 
-}
 #sign-up-section {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
-
+  background-image: url("..//images/banner-landingpage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #sign-up-cta {
@@ -144,7 +149,10 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
-  
+  margin-top: 170px;
+  margin-left: 100px;
+  margin-bottom: 170px;
+
 }
 
 #sign-up-cta .content {
@@ -175,6 +183,7 @@ header .mobile {
 #sign-up-cta .striking {
   font-family: "Rubik", sans-serif;
   padding-bottom: .75rem;
+  font-size: 3.125rem;
 }
 
 #sign-up-cta .button {
@@ -235,6 +244,8 @@ header .mobile {
   justify-content: space-between;
   padding: 4rem 5%;
   background-color: #f3f3f3;
+  margin-bottom: 187px;
+  
 }
 
 .feature {
@@ -242,19 +253,27 @@ header .mobile {
   padding: 2rem;
   margin: 0px 1.25rem;
   background-color: white;
+  height: 635px;
+  margin-top: 64px;
+  margin-bottom: 46px;
+  overflow:inherit;
 }
 
 .feature .image-container {
   width: 90%;
   height: 65%;
   margin: 0 auto;
+ 
 }
 
 .feature h2 {
   padding-bottom: .5rem;
-  font-size: 2.25rem;
+  font-size: 2rem;
   font-weight: bold;
   color: #4a4a4a;
+  font-family: "Roboto";
+  line-height: 1.2;
+  
 }
 
 .feature h3 {
@@ -262,6 +281,7 @@ header .mobile {
   line-height: 1.2;
   font-weight: 300;
   color: #4a4a4a;
+  
 }
 
 @media only screen and (max-width: 890px) {
@@ -305,6 +325,7 @@ header .mobile {
   font-size: 2.25rem;
   font-weight: bold;
   color: white;
+  opacity: 100%;
 }
 
 #filters-section .content h3 {
