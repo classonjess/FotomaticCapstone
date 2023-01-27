@@ -43,7 +43,8 @@ a.desktop.logo{
 }
 
 .image-container img {
-  display: block;
+  width: 100%;
+  display: inline-flex;
 
 }
 #one{
@@ -348,8 +349,7 @@ header .mobile {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
-  margin-top: 80px;
-  display: flex;
+  display: inline-flex;
 }
 
 @media only screen and (max-width: 760px) {
@@ -385,7 +385,9 @@ header .mobile {
 /* Quotes Section */
 
 #quotes-section {
-  background-color: #f3f3f3;
+  
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 #quotes-section content {
@@ -403,7 +405,13 @@ header .mobile {
 
 #quotes-section quote-citation {
   height: 1.875rem;
+  
 }
+
+.quote-citation{
+ margin-left: 30px;
+}
+
 
 @media only screen and (max-width: 760px) {
   #quotes-section content {
@@ -431,12 +439,15 @@ header .mobile {
 footer {
   background-color: #9b9b9b;
   padding: 1.5rem 2rem;
+  height: 3.875rem;
+
 }
 
 footer .content {
   color: white;
   display: flex;
   font-size: .75rem;
+  padding-left: 2rem;
 }
 
 footer .copyright {
