@@ -536,35 +536,40 @@ footer .copyright {
 @media only screen and (max-width: 768px){
   #sign-up-section {
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     height: 28rem;
   }
 
-header .desktop{
-  width:50rem;
-  margin: 0 auto;
+.desktop ul{
+  width: 29rem;
+  padding-left: 6rem;
 }
 
-nav li {
-  padding-left: 0px;
-  justify-content: space-between;
-
+.icon{
+  display: inline-flex;
+  padding-left: 1rem;
+  font-weight: bold;
 }
 
   header .mobile {
-    display: block;
-    width: 100%;
-  }
-
-  header .content {
-    padding: .5rem 0;
-    width: 100%;
-  }
-
-  header .mobile ul {
     display: flex;
-    align-items: center;
     width: 100%;
+  }
+.content{
+  position: relative;
+  display: inline-flex;
+  justify-items: center;
+  height: 0.5rem;
+}
+  header .content {
+    position: fixed;
+    padding: .5rem 0;
+    align-self: center;
+    padding-top: 2rem;
+  }
+
+  header .mobile li {
+    padding: 0;
   }
   header .mobile img{
     display: none;
@@ -575,10 +580,8 @@ nav li {
     background-color: #9dc20b;
     line-height: 1.6;
     color: white;
+    margin-right: 0.6rem;
   }
-
-
-
   #sign-up-cta {
     position: static;
     width: auto;
@@ -604,17 +607,19 @@ nav li {
   }
 
   .quote{
-    display: inline;
-    float:left;
-    padding-right: 15rem;
+    display: flex;
     margin-top: 2rem;
-    padding-left: 0;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    text-align: left;
+    margin-left: 2rem;
+   
   }
 
-  img.quote-citation{
-    padding-left: 35rem;
-    display: inline;
-    
+  .quote-citation{
+    margin-top: 2.1rem;
+    margin-right: 2rem;
+    height: 2rem;
   }
 
   #quotes-section {
@@ -623,41 +628,67 @@ nav li {
   }
 
   .feature {
-    height: 25rem;
+    height: 24rem;
     padding: 0px 30px 0px 0px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   #features-section{
     padding-bottom: 0.1rem;
-    padding-top: 0.1rem;
+    padding-top: 0px;
   }
 
+  
   #one{
-    display:inline-flex;
     justify-items: center;
     width: 100%;
     margin: 0;
+    padding-top: 1rem;
     padding-bottom: 1rem;
   }
   #two{
-    display:inline-flex;
     justify-items: center;
     width: 100%;
     margin: 0;
     padding-bottom: 1rem;
+    padding-top: 1rem;
 }
-  .feature h2{
-    font-size: 1.9rem;
-    font-weight: bold;
-    text-align: start;
-    padding-left: 1rem;
-  }
+
+.feature h2{
+  display: flex;
+  position: absolute;
+  font-size: 1.9rem;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 1rem;
+  width:100%;
+}
 
   .feature h3{
-    text-align: left;
+    display: flex;
     padding-left: 1rem;
+    margin-top: 5.2rem; 
+    text-align: left;
   }
+  #filters-section .content h2{
+    position:absolute;
+    width: 50rem;
+  }
+
+  #filters-section .content h3{
+    position: absolute;
+    text-align: center;
+    width: 50rem;
+    margin-top: 3rem;
+  }
+
   #filters-section{
-    padding-bottom: 0%;
+    padding-bottom:0px;
+    padding-top: 3.5rem;
+  }
+
+  #filters-section .images-container{
+    margin-top: 2.5rem;
   }
   footer{
     padding-left: 0.3rem;
